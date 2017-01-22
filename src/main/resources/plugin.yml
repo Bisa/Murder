@@ -1,0 +1,9 @@
+name: Murder
+main: io.github.bisa.murder.Murder
+version: Dev
+commands:
+  murder:
+    description: Commit murder, either randomly or with a specific target
+    usage: "Usage: '/murder [target]' to commence the killing"
+    permission: murder.murder
+    permission-message: You don't have permission to initiate murder!
